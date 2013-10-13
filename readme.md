@@ -1,4 +1,6 @@
 # Better Rainbow Parentheses
+This is Rainbow Parentheses, folked and modified by @lesguillemets.
+(so, this is no longer a 'Rainbow' Parentheses.)
 
 ### Options:
 

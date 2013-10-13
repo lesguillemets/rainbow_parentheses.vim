@@ -2,25 +2,26 @@
 "  Description: Rainbow colors for parentheses, based on rainbow_parenthsis.vim
 "               by Martin Krischik and others.
 "               2011-10-12: Use less code.  Leave room for deeper levels.
+"edited by lesguillemets for personal use.
 "==============================================================================
 
 let s:pairs = [
-	\ ['brown',       'RoyalBlue3'],
-	\ ['Darkblue',    'SeaGreen3'],
-	\ ['darkgray',    'DarkOrchid3'],
-	\ ['darkgreen',   'firebrick3'],
-	\ ['darkcyan',    'RoyalBlue3'],
-	\ ['darkred',     'SeaGreen3'],
-	\ ['darkmagenta', 'DarkOrchid3'],
-	\ ['brown',       'firebrick3'],
-	\ ['gray',        'RoyalBlue3'],
-	\ ['black',       'SeaGreen3'],
-	\ ['darkmagenta', 'DarkOrchid3'],
-	\ ['Darkblue',    'firebrick3'],
-	\ ['darkgreen',   'RoyalBlue3'],
-	\ ['darkcyan',    'SeaGreen3'],
-	\ ['darkred',     'DarkOrchid3'],
-	\ ['red',         'firebrick3'],
+	\ ['240',   'LightGray'],
+	\ ['244',   'gray'],
+	\ ['255',   'LightGray'],
+	\ ['240',   'white'],
+	\ ['244',   'LightGray'],
+	\ ['255',   'gray'],
+	\ ['240',   'LightGray'],
+	\ ['244',   'white'],
+	\ ['255',   'LightGray'],
+	\ ['240',   'gray'],
+	\ ['244',   'LightGray'],
+	\ ['255',   'white'],
+	\ ['244',   'LightGray'],
+	\ ['240',   'gray'],
+	\ ['244',   'LightGray'],
+	\ ['None',  'white'],
 	\ ]
 let s:pairs = exists('g:rbpt_colorpairs') ? g:rbpt_colorpairs : s:pairs
 let s:max = exists('g:rbpt_max') ? g:rbpt_max : max([len(s:pairs), 16])
